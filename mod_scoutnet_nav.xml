@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+  <name>ScoutNetNavigator</name> 
+  <author>Manfred Loebling</author> 
+  <creationDate>14.07.2012</creationDate> 
+  <copyright>(c) 2012 by Manfred Loebling</copyright> 
+  <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license> 
+  <authorEmail>manfred at manfred-loebling dot de</authorEmail> 
+  <authorUrl>http://www.manfred-loebling.de</authorUrl> 
+  <version>1.0</version> 
+  <description>MOD_SN_XML_DESCRIPTION</description> 
+  <files> 
+    <filename module="mod_scoutnet_nav">mod_scoutnet_nav.php</filename> 
+	<filename>helper.php</filename>
+	<filename>index.html</filename>
+	<folder>tmpl</folder>
+  </files>
+
+<languages>
+	<language tag="de-DE">de-DE.mod_scoutnet_nav.ini</language>
+	<language tag="en-GB">en-GB.mod_scoutnet_nav.ini</language>
+</languages>
+
+	<!-- UPDATESERVER DEFINITION -->
+	<updateservers>
+		<!-- Note: No spaces or linebreaks allowed between the server tags -->
+		<server type="extension" priority="1" name="ScoutNet Update Site">https://www.scoutnet.de/technik/kalender/plugins/joomla/mod_scoutnet_nav_update.xml</server>
+	</updateservers>
+  
+  
+  <config>
+  	<fields name="params">
+		<fieldset name="basic">
+			<field
+				name="snWidthBox"
+				type="text"
+				size="6"
+				default="200"
+				label="MOD_SN_FIELD_WIDTHBOX_LABEL"
+				description="MOD_SN_FIELD_WIDTHBOX_DESC" />
+		</fieldset>
+	</fields>
+			
+  </config>
+  
+</extension>
