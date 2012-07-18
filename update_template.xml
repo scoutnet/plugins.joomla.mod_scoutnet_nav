@@ -1,0 +1,25 @@
+	<update>
+		<name>ScoutNet Navigator</name>
+		<description>official ScoutNet Navigator</description>
+		<element>###NAME###</element>
+		<type>module</type>
+		<version>###VERSION###</version>
+		###CLIENT_ID###
+
+		<infourl title="ScoutNet URL">http://www.scoutnet.de</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://www.scoutnet.de/technik/kalender/plugins/joomla/###NAME###-###VERSION###-final.zip</downloadurl>
+		</downloads>
+		<tags>
+			<tag>ScoutNet</tag>
+			<tag>Manfred</tag>
+			<tag>Loebling</tag>
+			<tag>Muetze</tag>
+		</tags>
+
+		<maintainer>ScoutNet (Mütze)</maintainer>
+		<maintainerurl>http://www.scoutnet.de</maintainerurl>
+		<section>ScoutNet Navigator</section>
+
+		<targetplatform name="joomla" version="###JOOMLA_VERSION###" />
+	</update>
