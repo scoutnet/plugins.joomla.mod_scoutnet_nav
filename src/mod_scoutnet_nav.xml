@@ -11,7 +11,7 @@
   <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license> 
   <authorEmail>manfred at manfred-loebling dot de</authorEmail> 
   <authorUrl>http://www.manfred-loebling.de</authorUrl> 
-  <version>1.0</version> 
+  <version>1.0.0</version> 
   <description>MOD_SN_XML_DESCRIPTION</description> 
   <files> 
     <filename module="mod_scoutnet_nav">mod_scoutnet_nav.php</filename> 
